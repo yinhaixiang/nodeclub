@@ -2,14 +2,14 @@ Nodeclub
 =
 
 [![build status][travis-image]][travis-url]
-[![Coverage Status][coverage-image]][coverage-url]
+[![codecov.io][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
 [![node version][node-image]][node-url]
 
 [travis-image]: https://img.shields.io/travis/cnodejs/nodeclub/master.svg?style=flat-square
 [travis-url]: https://travis-ci.org/cnodejs/nodeclub
-[coverage-image]: https://img.shields.io/coveralls/cnodejs/nodeclub.svg?style=flat-square
-[coverage-url]: https://coveralls.io/r/cnodejs/nodeclub?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/cnodejs/nodeclub/master.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/cnodejs/nodeclub?branch=master
 [david-image]: https://img.shields.io/david/cnodejs/nodeclub.svg?style=flat-square
 [david-url]: https://david-dm.org/cnodejs/nodeclub
 [node-image]: https://img.shields.io/badge/node.js-%3E=_4.2-green.svg?style=flat-square
@@ -24,7 +24,7 @@ Nodeclub 是使用 **Node.js** 和 **MongoDB** 开发的社区系统，界面优
 
 *不保证 Windows 系统的兼容性*
 
-线上跑的是 [io.js](https://iojs.org) v2.3.3，[MongoDB](https://www.mongodb.org) 是 v2.6，[Redis](http://redis.io) 是 v2.8.9。
+线上跑的是 [Node.js](https://nodejs.org) v4.4.0，[MongoDB](https://www.mongodb.org) 是 v3.0.5，[Redis](http://redis.io) 是 v3.0.3。
 
 ```
 1. 安装 `Node.js/io.js[必须]` `MongoDB[必须]` `Redis[必须]`
